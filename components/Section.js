@@ -8,8 +8,10 @@ export default function Section({ cls, children }) {
     };
     useEffect(() => {
         window.addEventListener('scroll', onScroll);
+        window.addEventListener('load', onScroll);
         return () => {
             window.removeEventListener('scroll', onScroll);
+            window.removeEventListener('load', onScroll);
         };
     });
     return (
