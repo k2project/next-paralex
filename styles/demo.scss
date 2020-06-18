@@ -1,0 +1,194 @@
+.font-box,
+.color-box {
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+.color-box {
+    right: 0;
+}
+.font-box {
+    left: 0;
+}
+.font-picker,
+.color-picker {
+    position: fixed;
+    bottom: 2rem;
+    z-index: 999;
+    b {
+        font-size: 3rem;
+        cursor: pointer;
+        z-index: 999;
+        display: block;
+    }
+    color: #111;
+    text-align: center;
+}
+.font-picker {
+    left: 4rem;
+    font-size: 1.6rem;
+}
+.color-picker {
+    right: 4rem;
+}
+
+.color-picker span {
+    display: block;
+    margin: 0.7rem 0;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    box-shadow: 0 0 0.2rem 0rem rgba(0, 0, 0, 0.5);
+}
+.font-picker span {
+    background-color: #fff;
+    display: block;
+    margin: 0.7rem 0;
+    padding: 1.2rem 1rem;
+    width: 20rem;
+    cursor: pointer;
+    border: solid 0.1rem #f1f1f1;
+    border-radius: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+}
+.font-picker li.active {
+}
+
+body.c-435d77 {
+    color: #1e2b38;
+    .home-top input {
+        color: #1e2b38;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #435d77;
+    }
+}
+body.c-1e2b38 {
+    color: #1e2b38;
+    .home-top input {
+        color: #1e2b38;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #1e2b38;
+    }
+}
+body.c-282b33 {
+    color: #282b33;
+    .home-top input {
+        color: #282b33;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #282b33;
+    }
+}
+body.c-2f2f2f {
+    color: #2f2f2f;
+    .home-top input {
+        color: #2f2f2f;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #2f2f2f;
+    }
+}
+body.c-323537 {
+    color: #323537;
+    .home-top input {
+        color: #323537;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #323537;
+    }
+}
+body.c-444750 {
+    color: #444750;
+    .home-top input {
+        color: #444750;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #444750;
+    }
+}
+body.c-333533 {
+    color: #333533;
+    .home-top input {
+        color: #333533;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #333533;
+    }
+}
+body.c-24292e {
+    color: #24292e;
+    .home-top input {
+        color: #24292e;
+    }
+    footer,
+    .bg--secondary-dark {
+        background-color: #24292e;
+    }
+}
+main.segoe-ui {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    .home-top input {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+            'Helvetica Neue', sans-serif;
+    }
+}
+
+main.josefin-sans {
+    font-family: 'Josefin Sans', sans-serif;
+    .section-stripline {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        letter-spacing: -5px;
+    }
+    .home-top input {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        letter-spacing: -1px;
+        font-size: 7.5rem;
+    }
+    p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+            'Helvetica Neue', sans-serif;
+    }
+}
+main.merriweather-sans {
+    font-family: 'Merriweather Sans', sans-serif;
+    .section-stripline,
+    .home-top input {
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+            'Helvetica Neue', sans-serif;
+    }
+}
+main.fira-sans {
+    font-family: 'Fira Sans', sans-serif;
+    .section-stripline,
+    .home-top input {
+        font-family: 'Fira Sans', sans-serif;
+    }
+    p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+            'Helvetica Neue', sans-serif;
+    }
+}

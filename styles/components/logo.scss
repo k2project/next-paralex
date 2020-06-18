@@ -1,0 +1,13 @@
+.logo {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.2rem;
+    stroke: #111;
+}
+header {
+    .logo {
+        transform: scale(1.2);
+        margin-right: 1rem;
+    }
+}

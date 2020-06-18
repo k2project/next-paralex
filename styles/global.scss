@@ -1,0 +1,222 @@
+//==========================
+//  SCREEN READERS STYLING
+//==========================
+body {
+    overflow-x: hidden;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px 1px 1px 1px); //IE6 and IE7
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+button:focus {
+}
+a:link,
+a:visited a:active {
+}
+a:hover {
+}
+a:focus {
+}
+p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.btn-box {
+    margin: 3rem auto;
+}
+.btn {
+    color: $COLOR_DARK;
+    border: solid 0.1rem $COLOR_DARK;
+    padding: 1.4rem;
+    min-width: 25rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.6rem;
+    display: block;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+.btn--theme {
+    background-color: $COLOR_THEME;
+    border-color: $COLOR_THEME;
+}
+.btn--theme:hover {
+    background-color: darken($COLOR_THEME, 10%);
+    border-color: darken($COLOR_THEME, 10%);
+}
+.bg--theme {
+    background-color: $COLOR_THEME;
+}
+.bg--secondary-dark {
+    background-color: $COLOR_SECONDARY_DARK;
+    color: #e1e1e1;
+}
+.color--theme {
+    color: $COLOR_THEME_DARKER;
+}
+.color--white {
+    color: #fff;
+}
+header {
+    padding: 3.5rem 10% 3rem;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 400;
+    }
+    nav {
+        flex-grow: 1;
+        text-align: right;
+        padding: 0.7rem 0 0.2rem;
+    }
+    li {
+        display: inline-block;
+        padding: 0 1.2rem;
+    }
+    a {
+        font-size: 1.6rem;
+    }
+    b {
+        font-size: 1.8rem;
+    }
+}
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.cover--white {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.section-img {
+    display: grid;
+    align-content: center;
+    min-height: 80vh;
+    padding: 10rem 5rem 8rem;
+    padding-left: 40%;
+    padding-right: 15%;
+    text-align: left;
+    background-color: #fff;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    p {
+        font-size: 1.6rem;
+    }
+    .section-stripline {
+        font-size: 7.5rem;
+        font-weight: 200;
+        line-height: 0.8;
+        margin-bottom: 2rem;
+        span {
+            font-weight: 200;
+        }
+    }
+    strong {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+.section-text {
+    padding: 14rem 15% 12rem;
+    min-height: 80vh;
+    display: grid;
+    align-content: center;
+    // text-align: center;
+    strong {
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+}
+.section-title {
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 3rem;
+    b {
+        font-weight: 400;
+    }
+}
+.contact {
+    // text-align: center;
+    padding: 12rem 5rem 0;
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 30rem 40rem;
+    justify-content: center;
+    // align-items: center;
+    form {
+        padding-left: 5rem;
+    }
+    label {
+        font-size: 1.4rem;
+        padding-left: 2rem;
+        text-align: center;
+        top: 3rem;
+    }
+
+    input,
+    .btn {
+        display: block;
+        margin: 0 auto;
+        min-width: 35rem;
+        width: 30vw;
+    }
+    .btn {
+        padding: 1.6rem;
+        margin-top: 2rem;
+    }
+    input {
+        color: $COLOR_DARK;
+        border: solid 0.1rem $COLOR_DARK;
+        border-radius: 3rem;
+        padding: 1.4rem 2rem;
+        text-align: center;
+        display: block;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    input:focus {
+        background-color: #f1f3f0;
+    }
+    ul {
+        padding-top: 1rem;
+    }
+    li {
+        display: inline-block;
+        padding-right: 1rem;
+    }
+    a img {
+        height: 3.2rem;
+        opacity: 0.8;
+    }
+}
+.contact-drawing {
+    height: 8rem;
+    margin: 7rem auto 4rem;
+    opacity: 0.7;
+    grid-column: span 2;
+}
+footer {
+    background-color: $COLOR_THEME;
+    padding: 2rem;
+    text-align: center;
+}

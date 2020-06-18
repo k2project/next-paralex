@@ -1,0 +1,53 @@
+.paralex {
+    height: 80vh;
+    min-height: 50rem;
+    overflow: hidden;
+}
+.paralex-img {
+    position: absolute;
+    height: 140vh;
+    min-height: calc(50rem + 40vh);
+    width: 100vw;
+    top: -20vh;
+    left: 0;
+    background-size: cover;
+    background-position: center top;
+}
+.filler {
+    padding: 10rem 15rem;
+    background-color: #fff;
+}
+.paralex-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+.paralex-title {
+    font-size: 6rem;
+    // text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+.paralex-subtitle {
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.top .paralex-img {
+    background-image: url('/imgs/bg1.jpg');
+    background-position: center 10%;
+}
+.middle .paralex-img {
+    background-image: url('/imgs/bg2.jpg');
+    background-position: center 10%;
+}
+.bottom .paralex-img {
+    background-image: url('/imgs/bg3.jpg');
+    background-position: center 10%;
+}
